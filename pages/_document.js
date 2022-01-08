@@ -10,11 +10,13 @@ class MyDocument extends Document {
   render() {
     return (
       <Html>
-        <Head />
+        <Head>
+          <title>Keyboard Generator DApp</title>
+        </Head>
         <body className='bg-gradient-to-r from-pink-300 via-purple-300 to-sky-200'>
           <main className='max-w-3xl mx-auto'>
             <h1 className='mt-16 mb-4 text-4xl text-indigo-900'>
-              Solidity Keyboard Generator
+              Keyboard Generator DApp
             </h1>
             <Main />
           </main>
