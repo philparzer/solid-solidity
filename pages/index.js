@@ -63,9 +63,9 @@ export default function Home() {
   //render
   if (!ethereum) {
     return (<div>
-      <p>Please <a href="https://metamask.io/" target="_blank" className="text-indigo-900 font-semibold underline">install MetaMask</a> to connect to this site</p>
+      <p>Please <a href="https://metamask.io/" target="_blank" rel='noopener noreferrer' className="text-indigo-900 font-semibold underline">install MetaMask</a> to connect to this site</p>
       <p>In Metamask, connect to the Rinkeby Test Network</p>
-      <p>You can request some testnet ETH <a href="https://faucets.chain.link/rinkeby" target="_blank" className="text-indigo-900 font-semibold underline">here</a></p>
+      <p>You can request some testnet ETH <a href="https://faucets.chain.link/rinkeby" target="_blank" rel='noopener noreferrer' className="text-indigo-900 font-semibold underline">here</a></p>
     </div>)
   }
   
